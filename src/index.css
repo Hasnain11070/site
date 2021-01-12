@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+
+
+}
+.xxy{
+  position:sticky;
+  top:0;
+  left: 0;
+  width: 100%;
+  z-index:1;  
+}
+.neew{
+  margin-left:auto;
+}
+.active-menu{
+  font-weight: bold;
+  border-bottom: 1px solid #fd1518;
+}
+.mybody{
+  margin: 140px 0 140px 0;
+}
+.bar{
+  background: rgb(1,19,43);
+background: linear-gradient(315deg, rgba(1,19,43,1) 0%, rgba(1,69,104,1) 100%);
+}
+.xx{
+  color: #fd1518;
+}
+.xxyx{
+  
+  color: #fd1518;
+  
+}
+.bt{
+  
+}
+.btn-style{
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color:#fd1518;
+  border: 2px solid #fd1518;
+  text-decoration: none;
+}
+.btn-style:hover{
+  background: #fd1518;
+  color: #fff;
+}
+.sizep{
+  color: #484848;
+  font-size: 24px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+.change,.navbar-nav{
+  font-weight: bold;
+  
+  font-size: 18PX;
+    
+}
+.fa-chevron-down{
+  transform: rotate(0deg);
+  transition: transform 1s linear;
+}
+
+.fa-chevron-down.open{
+  transform: rotate(180deg);
+  transition: transform 1s linear;
+}
+.size{
+  margin-left:250px;
+  margin-right: auto;
+}
+
+.brands{
+  color:#fd1518;
+}
+.images img{
+  height: 450px;
+  margin-top:40px ;
+  margin-left:25%;
+}
+.images{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down{
+  0%{
+    transform:translateY(20px);
+  }
+  100%{
+    transform:translateY(-20px);
+  }
+
+}
+@keyframes up-down{
+  0%{
+    transform:translateY(20px);
+  }
+  100%{
+    transform:translateY(-20px);
+  }
+
+}
+.card img{
+  height:200px;
+  width: auto;
+}
