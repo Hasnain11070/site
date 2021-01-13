@@ -17,25 +17,28 @@ function Email() {
 
   return (
     <>
-      <div className='container-fluid mt-5'>
+       <div className='container-fluid mt-5'>
         <div className='row '>
           <div className='col-6 mx-auto '>
-            <div className='size'>
-              <form onSubmit={sendEmail}>
+            <div className='row'>
+                <div className='col-12'>
+                <form onSubmit={sendEmail}>
                 <label>Name</label>
-                <input className="w-50 form-control mb-5" type="text" name="user_name" />
+                <input className=" form-control mb-5" type="text" name="user_name" />
                 <label>Email</label>
-                <input className="w-50 form-control mb-5" type="email" name="user_email" />
+                <input className=" form-control mb-5" type="email" name="user_email" />
                 <label>Message</label>
-                <textarea className="w-50 form-control mb-5" name="message" />
+                <textarea className=" form-control mb-5" name="message" />
                 <button type="submit" class="btn btn-outline-primary">Submit</button>
               </form>
+                </div>
             </div>
-
+            
           </div>
 
         </div>
       </div>
+
 
     </>
 
